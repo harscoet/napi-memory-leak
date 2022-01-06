@@ -1,0 +1,14 @@
+[package]
+name = "napi_memory_leak"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "2.0.2"
+napi-derive = "2.0.6"
+
+[build-dependencies]
+napi-build = "1.0.2"
